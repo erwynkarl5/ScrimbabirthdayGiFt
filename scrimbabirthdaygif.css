@@ -1,0 +1,121 @@
+ body {
+
+            font-family: "Happy Monkey", system-ui;
+            text-align: center;
+
+            color: #ffffff;
+            background: linear-gradient(lightskyblue, lightpink);
+
+        }
+
+        #selfie {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: flex;
+            border: 4px solid#EFB0C9;
+        }
+
+        #title,
+        #age,
+        #bday {
+            text-shadow: 0px 3px 1px black;
+        }
+
+        #age {
+            background: #EFB0C9;
+            padding: 8px 15;
+            border-radius: 5px;
+            margin: 5px 0px 10px 0px;
+           
+        }
+
+        #bday {
+            background: #EFB0C9;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin: 0px;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .gift-img {
+            width: 480px;
+            border: 4px solid white;
+            border-radius: 4px;
+            height: 480px;
+            background-image: url(../img/giftcover.avif);
+            background-size: cover;
+            margin: 30px auto;
+           
+        }
+
+        .gift-section {
+            margin-top: 100px;
+        }
+
+        .gift-title {
+            margin-bottom: 0px;
+        }
+
+        .gift-hint {
+            margin-top: 10px;
+        }
+
+        .gift-img:hover {
+            background-image: url(../img/rose.webp);
+
+        }
+
+        #second-gift:hover {
+            background-image: url(../img/happy.webp);
+
+
+        }
+
+        #third-gift:hover {
+            background-image: url(../img/hot.webp);
+
+
+        }
+
+        #fourth-gift:hover {
+            background-image: url(../img/superman.webp);
+
+
+        }
+
+        .cheers-section {
+            margin-top: 100px;
+           
+
+        }
+
+
+        #cheers-gift:hover {
+            background-image: url(../img/cheers.webp);
+            background-size: cover;
+
+        }
+
+        #footer {
+            width: 400px;
+            color: white;
+            margin: 30px auto;
+            font-style: italic;
+        }
+
+        a {
+            color: white;
+        }
+        #cheers-gift {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+        }
